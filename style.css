@@ -1,6 +1,13 @@
 html{
 	font-family: sans-serif;
 	font-size: 24px;
+	padding:0;
+	margin:0;
+}
+
+body{
+padding:0;
+margin:0;
 
 }
 
@@ -9,24 +16,37 @@ html{
 header{
 	background-color: blue;
 	grid-column: span 3;
-	padding: 16px;
+	padding:16px;
+	text-align: center;
 
 }
 
 nav{
 	background-color: yellow;
 	padding: 16px;
+	font-family: comic;
+
 
 }
 
 main{
+
 	background-color: pink;
 	padding: 16px;
+	text-align: center;
 
 
 }
 
+img{
+	border: ;
+	margin:100px;
+	max-width:  400px;
+	max-height: 500px;
+
+}
 aside{
+	text-align: center;
 	background-color: green;
 	padding: 16px;
 
@@ -37,15 +57,18 @@ footer{
 
 }
 
-}
+
 
 .container{
-	border: 1px solid rgb(0,0,0,0.4);
+	border: 1px solid rgb(0,0,0.4);
 	display: grid;
 	min-height: 100vh;
 	grid-template-columns: 20% auto 20%;
 	grid-template-rows: 1fr auto ;
 }
+
+	
+
 /*h1{
 	font-family: Arial;
 	color: rgb(50, 255,40);
