@@ -1,23 +1,81 @@
- 
-title{
-	font-family:Courier New;
-	font-weight: 500;
-	color: purple;
-	text-align: center;
-	font-size: 50 px;
+html{
+	font-family: sans-serif;
+	font-size: 24px;
+
 }
 
-h1{
+
+
+header{
+	background-color: blue;
+	grid-column: span 3;
+	padding: 16px;
+
+}
+
+nav{
+	background-color: yellow;
+	padding: 16px;
+
+}
+
+main{
+	background-color: pink;
+	padding: 16px;
+
+
+}
+
+aside{
+	background-color: green;
+	padding: 16px;
+
+}
+footer{
+	background-color: purple;
+	grid-column: span 3;
+
+}
+
+}
+
+.container{
+	border: 1px solid rgb(0,0,0,0.4);
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 20% auto 20%;
+	grid-template-rows: 1fr auto ;
+}
+/*h1{
 	font-family: Arial;
-	color: purple;
-	text-align: left;
-	font-size: 30 px;
+	color: rgb(50, 255,40);
+	text-align: center;
+	font-size: 30px;
 
 }
 
- p{ 
+h2{
+	font-family: Arial;
+	color: rgb(50, 2, 40);
+	font-size: 25px;
+	text-align: center;
+}
+
+img{
+	max-width: 400px;
+	border-image-slice: 50px; 
+}
+
+ p{ max-width: 400px;
  	font-family: Arial;
- 	font-size: 12 px;
- 	color: red;
- 	text-align: left;
+ 	font-size: 20px;
+ 	color: rgb(30,30,30);
+ 	text-align: center;
   }
+div{
+	border: 15px solid green;
+	padding-right: 20px;
+	background-color: blue;
+	}
+
+*/
